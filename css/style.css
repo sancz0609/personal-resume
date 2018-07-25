@@ -1,27 +1,60 @@
 #header{
-	margin-left: 1%;
-	margin-right: 1%;
+	margin: -8px -8px 0px -8px;
+	overflow : hidden;
+	background-color: #333333;
 }
 
 #my-info{
-	float : left;
+	float: left;
 	text-align: center;
+	width: 25%;
 }
 
 #name{
 	font-size: 200%;
 	font-family: 'ABeeZee', sans-serif;
+	color : white;
+	text-decoration: none;
+}
+
+#name:hover{
+	color : #8c8c8c;
+}
+
+#email{
+	font-family: 'Pontano Sans', sans-serif;
+	color : white;
+}
+
+#phone{
+	font-family: 'Pontano Sans', sans-serif;
+	color : white;
 }
 
 #nav-bar{
 	text-align: right;
+	width : 75%;
+	float : left;
 }
 
 #nav-items{
+	padding-top: 16px;
+	margin-right: 45px;
 	list-style : none;
+	font-family: 'Roboto', sans-serif;
 }
 
 #nav-single-item{
 	display: inline;
-	margin-left: 1%;
+	margin-left: 3%;
+}
+
+#nav-single-item-link{
+	text-decoration: underline;
+	color : #8c8c8c;
+}
+
+#nav-single-item-link:hover{
+	color : white;
+	text-decoration: none;
 }
