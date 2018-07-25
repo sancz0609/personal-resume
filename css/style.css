@@ -54,6 +54,11 @@
 	color : #8c8c8c;
 }
 
+#nav-single-item-link-active{
+	text-decoration: underline;
+	color : white;
+}
+
 #nav-single-item-link:hover{
 	color : white;
 	text-decoration: none;
