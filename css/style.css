@@ -1,5 +1,20 @@
+#header{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
 #my-info{
 	float : left;
+	text-align: center;
+}
+
+#name{
+	font-size: 200%;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+#nav-bar{
+	text-align: right;
 }
 
 #nav-items{
@@ -8,4 +23,5 @@
 
 #nav-single-item{
 	display: inline;
+	margin-left: 1%;
 }
